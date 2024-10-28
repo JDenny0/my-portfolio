@@ -1,11 +1,11 @@
-import HeroComponent from "../components/HeroComponent";
-
+import HeroImages from "../components/HeroImages"
 
 const home = () => {
-  return <div>
-    
-    <HeroComponent />
-  </div>;
-};
+	return (
+		<div>
+			<HeroImages />
+		</div>
+	)
+}
 
-export default home;
+export default home
