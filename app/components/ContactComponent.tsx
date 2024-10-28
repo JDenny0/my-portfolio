@@ -1,3 +1,4 @@
+import Image from "next/image"
 import React from "react"
 
 const ContactComponent: React.FC = () => {
@@ -42,6 +43,19 @@ const ContactComponent: React.FC = () => {
 								</a>
 							</div>
 						</div>
+						<div className='contact__widget__item text-center mt-40'>
+							<div className='contact__widget__item__icon'>
+								<i className='fa fa-map-marker text-2xl text-white'></i>
+							</div>
+							<div className='contact__widget__item__text'>
+								<h4 className='font-semibold text-white'>GitHub</h4>
+								<a
+									href='https://github.com/JDenny0'
+									className='text-blue-500'>
+									https://github.com/JDenny0
+								</a>
+							</div>
+						</div>
 					</div>
 				</div>
 			</section>
@@ -51,9 +65,11 @@ const ContactComponent: React.FC = () => {
 					<div className='footer__top '>
 						<div className='footer__top__logo flex justify-center items-center mb-8 border-solid border-b-white'>
 							<a href='#'>
-								<img
+								<Image
 									src='/images/logo/PhotographyLogo.png'
 									alt='Logo'
+									width={200}
+									height={50}
 									className='  w-52 h-6'
 								/>
 							</a>

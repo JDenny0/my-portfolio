@@ -37,7 +37,6 @@ export default function RootLayout({
 					<Nav />
 				</header>
 				<Suspense fallback={<Loading />}>{children}</Suspense>
-				<UploadButtonPage />
 			</body>
 		</html>
 	)
